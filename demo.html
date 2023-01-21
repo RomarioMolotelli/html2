@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Моя визитка</title>
+    <style>
+		*{
+			margin: 0px;
+			padding: 0px;
+			box-sizing: border-box;
+		}
+		h1{
+			padding: 0px;
+			margin: 0px;
+			margin-block-start: 0.0px;
+
+		}
+        .container {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 100vh;
+            background-color: black;
+        }
+
+        .menu {
+            height: 100vh;
+            width: 15vw;
+        }
+		 .menuhover {
+            height: 100vh;
+            width: 15vw;
+            background-color: #47506D;
+			position:fixed;
+			display: flex;
+			flex-direction: column;
+			
+        }
+
+
+        .wrap {
+            display: flex;
+            flex-direction: column;
+            height: fit-content;
+            width: 85%;
+            background-color: white;
+        }
+
+        .profile {
+            width: 100%;
+            height: 597px;
+        }
+
+        .info {
+            display: flex;
+            justify-content: space-between;
+			padding-left: 20px;
+            height: 100%;
+            width: 100%;
+            background-color: #8794B4;
+        }
+
+        .skills {
+            white-space: nowrap;
+            padding-left: 20px;
+            font-size: 24px;
+            color: #FBD597;
+            line-height: 1.9em;
+        }
+
+        .img {
+            padding-top: 20px;
+           
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            padding: 50px;
+            justify-content: space-around;
+        }
+
+        .button1 {
+            display: inline-block;
+            text-decoration: none;
+            background-color: #47506D;
+            color: #FBD597;
+            border: none;
+            border-radius: 63px;
+            font-size: 20px;
+            padding: 15px 50px;
+            transition: all 0.8s ease;
+        }
+        .button1:hover{
+            text-decoration: none;
+            background-color: #006089;
+            color: #ffeded;
+        }
+        .button2 {
+            display: inline-block;
+            text-decoration: none;
+            background-color: #47506D;
+            color: #FBD597;
+            border: none;
+            border-radius: 63px;
+            font-size: 20px;
+            padding: 15px 80px;
+            transition: all 0.8s ease;
+        }
+        .button2:hover{
+            text-decoration: none;
+            background-color: #006089;
+            color: #ffeded;
+        }
+        .bridge1 {
+            height: 33px;
+            width: 100%;
+            background-color: #2275C0;
+        }
+        .about {
+			text-align: center;
+            height: 464px;
+            width: 100%;
+            background-color: #8794B4;
+            color: #FBD597;
+            font-size: 20px;
+        }
+        .bridge2 {
+            height: 33px;
+            width: 100%;
+            background-color: #2275C0;
+        }
+        .contacts {
+			text-align: center;
+            height: 464px;
+            width: 100%;
+            background-color: #8794B4;
+			color: #FBD597;
+            font-size: 20px;
+        }
+		.column {
+			height: 80%;
+			width: 100%;
+			column-count: 2;
+			font-size: 42px;
+			text-align:center;
+			column-fill: auto;
+			line-height: 2;
+			padding-top: 45px;
+			padding-right: 45px;
+			
+		}
+		.foot{
+			color: #FBD597;
+			background-color: #2275C0;
+			text-align:center;
+			font-size: 42px;
+			padding: 40px;
+			height: auto;
+			width: 100%;
+		}
+		.label > a{
+			font-size: 20px;
+			color: #FBD597;
+			text-decoration:none;
+			line-height: 25px;
+		
+		}
+		.label{
+			text-align: center;
+		}
+	article{
+		text-indent: 20px;
+		padding: 20px;
+		text-align:justify;
+		font-size: 30px
+	}
+	hr{
+		border-color: #FBD597;
+		margin: 10px;
+	}
+	a{
+		text-decoration:none;
+		color: #FBD597;
+	}
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="menu">
+		<div class="menuhover">
+			<img src="Group 3.png" width="100%">
+			<div class="label">
+				<a href="#"> HOME </a> 
+			</div>
+			<hr>
+			<div class="label">
+				<a href="#skills"> SKILLS </a>
+			</div>
+			<hr>
+			<div class="label">
+			<a href="#contacts"> CONTACTS </a>
+			</div>
+			<hr>
+			<div class="label">
+			<a href="#about"> ABOUT </a>
+			</div>
+			<hr>
+			</div>
+    </div>
+    <div class="wrap">
+        <div class="profile">
+            <img src="Rectangle%202.png" width="100%" height="100%">
+
+        </div>
+        <div class="info">
+            <div class="skills">
+				<a name="skills"></a>
+                <H1>MY SKILLS</H1>
+                <ol>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                    <li>PHP</li>
+                </ol>
+
+            </div>
+            <div class="img">
+                <img src="Rectangle%204.png">
+
+            </div>
+            <div class="links">
+                <div class="button1">
+                    <a href="https://vk.com/romariomolloteli" target="_blank">MY CONTACTS</a>
+
+                </div>
+                <div class="button2">
+                    <a href="https://www.figma.com/file/m5bW3rnwkAzpJj8dgCVe9K/DESIGN?node-id=1%3A3" target="_blank">RESUME</a>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="bridge1"></div>
+        <div class="about">
+			<a name="about">
+			<h1> ABOUT ME </h1>
+			<article>     Lorem ipsum dolor sit amet,consectetur adipiscing elit,sed do eiusmod tempor 
+			incididunt ut labore et dolore magna aliqua. Mi tempus imperdiet nulla malesuada pellentesque.
+			Nullam eget felis eget nunc. Sit amet justo donec enim diam vulputate. Pharetra sit amet aliquam id.
+			Faucibus turpis in eu mi bibendum. Malesuada fames ac turpis egestas sed tempus. Tincidunt praesent 
+			semper feugiat nibh sed pulvinar. Vel pretium lectus quam id leo in vitae turpis. Suspendisse faucibus
+			interdum posuere lorem ipsum dolor sit amet consectetur. Elementum tempus egestas sed sed. Nisi quis 
+			eleifend quam adipiscing vitae proin sagittis nisl. Consequat semper viverra nam libero justo laoreet 
+			sit amet cursus. </article>
+        </div>
+        <div class="bridge2"></div>
+        <div class="contacts" >
+		<a name="contacts"></a>
+			<h1> CONTACTS </h1>
+			<div class="column">
+			VK <br>
+			TELEGRAM <br>
+			WHATS APP <br>
+			<a href="#"> VK.com/blabla <br> </a>
+			<a href="#"> t.me/lol <br> </a>
+			<a href="#"> +75679435678 <br> </a>		
+			</div>
+        </div>
+        <footer class="foot">
+		БЛА БЛА БЛА
+		</footer>
+    </div>
+
+</div>
+
+</body>
+</html>
